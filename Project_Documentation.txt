@@ -51,6 +51,6 @@ Download NLP model: python -m spacy download en_core_web_sm
 -   Add skill ranking system
 -   Store results in database
 
-Conclusion This project is a practical demonstration of combining
+Conclusion This task is a practical demonstration of combining
 Python, text processing, and NLP to build a real‑world useful tool. It
 is simple, educational, and scalable for future improvements.

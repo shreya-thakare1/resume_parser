@@ -1,0 +1,54 @@
+RESUME PARSER PROJECT DOCUMENTATION
+
+1.  Introduction This project is a Resume Parser developed in Python.
+    Its purpose is to automatically read resumes in PDF format and
+    extract useful information such as skills, education, and
+    experience. Instead of manually reading resumes, this script
+    performs the task instantly using text processing and NLP
+    techniques.
+
+2.  Objective The goal of this project is to understand how Natural
+    Language Processing works in real applications and how automation
+    can simplify repetitive tasks like resume screening.
+
+3.  Tools & Technologies Used
+
+-   Python – main programming language
+-   Regex – used to detect sections
+-   pdfplumber – extracts text from PDF
+-   spaCy – performs NLP and entity recognition
+
+4.  Working Principle Step 1 – The script loads the resume PDF. Step 2 –
+    It extracts all text from each page. Step 3 – Regex patterns locate
+    section headings. Step 4 – Extracted sections are stored separately.
+    Step 5 – spaCy processes text and detects entities. Step 6 – Output
+    is printed in structured format.
+
+5.  Installation Steps Install required libraries: pip install
+    pdfplumber spacy
+
+Download NLP model: python -m spacy download en_core_web_sm
+
+6.  How to Run Place your resume PDF in the project folder and run:
+    python resume_parser.py
+
+7.  Output The script displays detected sections and top entities found
+    in the resume.
+
+8.  Learning Outcome Through this project, we learn:
+
+-   How PDF text extraction works
+-   How regex pattern matching works
+-   Basics of NLP
+-   How real automation tools are designed
+
+9.  Future Improvements
+
+-   Add support for Word resumes
+-   Build web interface
+-   Add skill ranking system
+-   Store results in database
+
+Conclusion This project is a practical demonstration of combining
+Python, text processing, and NLP to build a real‑world useful tool. It
+is simple, educational, and scalable for future improvements.
